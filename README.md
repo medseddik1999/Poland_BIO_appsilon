@@ -4,32 +4,6 @@
 
 This Shiny application comprises two main sections. The first section is the homepage, featuring three primary charts: the Poland Region Map, Species Diversity, and Observations Timeline. The second section is the Observations Map, allowing users to view observation locations on a map and add notes for specific information.
 
--   app.R (App run file)
--   data_prepa (Data preparation before setup)
-    -   data_importation.R
-    -   Provance_names.py
--   data_setup.R
--   examples. (useful examples)
-    -   APP2.R (app in one block)
-    -   chart_exampleq.R
-    -   example.R
--   locations.csv
--   Notes_bio
-    -   Mergus.txt
--   Poland_data.csv
--   poland.geojson. poland geojson for leaflet
--   R
-    -   functions.R. (functions for the app)
-    -   module.R (app modules will be used in app.R)
--   README.md
--   styles (UI/UX)
-    -   semantic.min.css
-    -   semantic.min.js
--   tests
-    -   shinytest
-        -   mytest.R
-        -   test-functions.R
-        -   test-module.R
 
 ## Data Preparation:
 
@@ -287,4 +261,35 @@ files <- reactive({
 
 Useful links:
 
-<https://echarts4r.john-coene.com/> <https://semantic-ui-forest.com/themes/> <https://github.com/BurntSushi/xsv> <https://github.com/Appsilon/semantic.dashboard>
+<https://echarts4r.john-coene.com/> <https://semantic-ui-forest.com/themes/> <https://github.com/BurntSushi/xsv> <https://github.com/Appsilon/semantic.dashboard> 
+
+
+-   app.R (App run file)
+-   data_prepa (Data preparation before setup)
+    -   data_importation.R
+    -   Provance_names.py
+-   data_setup.R
+-   examples. (useful examples)
+    -   APP2.R (app in one block)
+    -   chart_exampleq.R
+    -   example.R
+-   locations.csv
+-   Notes_bio
+    -   Mergus.txt
+-   Poland_data.csv
+-   poland.geojson. poland geojson for leaflet
+-   R
+    -   functions.R. (functions for the app)
+    -   module.R (app modules will be used in app.R)
+-   README.md
+-   styles (UI/UX)
+    -   semantic.min.css
+    -   semantic.min.js
+-   tests
+    -   shinytest
+        -   mytest.R
+        -   test-functions.R
+        -   test-module.R
+
+
+

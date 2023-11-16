@@ -1,0 +1,13 @@
+name: Biodiversity
+title: Biodiversity
+username: yw93hx-midou-seddik
+account: yw93hx-midou-seddik
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10544179
+bundleId: 7934414
+url: https://yw93hx-midou-seddik.shinyapps.io/Biodiversity/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: examples/APP2.R|examples/chart_exampleq.R|examples/example.R|tests/shinytest/mytest.R|tests/shinytest/test-functions.R|tests/shinytest/test-module.R
