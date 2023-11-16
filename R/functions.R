@@ -98,9 +98,15 @@ clean_title <- function(text){
 
 
 
+loaded_packages <- search()
 
+# Extract package names
+package_names <- loaded_packages[grepl("^package:", loaded_packages)]
 
-
+# Remove "package:" prefix
+package_names <- gsub("^package:", "", package_names)
+package_names <- paste(package_names  ,  collapse = ' , ') 
+package_names
 
 
 rm(dt)
